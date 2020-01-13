@@ -24,9 +24,7 @@ type City struct{
 	Name string
 	Latitude float64 //`json: "latitutde"`
 	Longitude float64 // `json:"longitude"`
-
-	Currently Weather `json: "currently"`
-	 
+	Currently Weather `json: "currently"`	 
 	}
 
 type Weather struct{
