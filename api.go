@@ -20,7 +20,6 @@ import (
 //City Latitude/Longitude 
 //Structure is nested to match the structure of the API
 type City struct{
-
 	Name string
 	Latitude float64 //`json: "latitutde"`
 	Longitude float64 // `json:"longitude"`
